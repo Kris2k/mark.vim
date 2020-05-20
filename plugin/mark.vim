@@ -344,7 +344,9 @@ if !hasmapto('<Plug>MarkSearchAnyPrev', 'n')
 	nmap <unique> <Leader>? <Plug>MarkSearchAnyPrev
 endif
 if !hasmapto('<Plug>MarkSearchNext', 'n')
+if !hasmapto('*', 'n')
 	nmap <unique> * <Plug>MarkSearchNext
+endif
 endif
 if !hasmapto('<Plug>MarkSearchPrev', 'n')
 	nmap <unique> # <Plug>MarkSearchPrev
