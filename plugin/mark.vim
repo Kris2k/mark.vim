@@ -349,7 +349,9 @@ if !hasmapto('*', 'n')
 endif
 endif
 if !hasmapto('<Plug>MarkSearchPrev', 'n')
+if !hasmapto('#', 'n')
 	nmap <unique> # <Plug>MarkSearchPrev
+endif
 endif
 
 
